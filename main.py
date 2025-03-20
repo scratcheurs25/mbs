@@ -44,7 +44,7 @@ async def on_message(message):
                 else:
                     link_data = {}
                 link_data[message.content.lower()[1:]] = {
-                        "file": message.content.lower()[1:]+".zip",
+                        "file": "v_list"+message.content.lower()[1:]+".zip",
                         "maker": message.author.name
                 }
                 with open('link.json', 'w') as json_file:
