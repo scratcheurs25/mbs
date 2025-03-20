@@ -34,7 +34,7 @@ async def on_message(message):
             await message.channel.send(link_data[message.content.lower()[1:]]["version"])
             await message.channel.send(file=discord.File(file_path))
         except Exception as e:
-           await message.channel.send(f"Le serveur `{message.content.lower()[1:]}` n'existe pas ou le fichier est introuvable.,{e}")
+           await message.channel.send(f"Le serveur `{message.content.lower()[1:]}` n'existe pas ou le fichier est introuvable.")
     elif message.content.lower().startswith("€"):
         left_side = message.content.lower()[1:].split("@")[0]
         try:
