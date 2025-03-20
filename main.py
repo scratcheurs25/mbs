@@ -62,4 +62,4 @@ async def on_message(message):
                 await message.channel.send("vous n'ête pas le créateur de se server")
 
 
-client.run("MTM1MTkyMTI3Mjc2MTc0OTU0Ng.Gody2a._fIERW_aXPn0CZc9wEVAOj4gmAj0MicFsWxECs")
+client.run("token")
