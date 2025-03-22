@@ -1,6 +1,6 @@
+import os
 import discord
 import json
-import os
 
 
 # Lire le fichier JSON
@@ -16,6 +16,13 @@ intents.members = True
 
 client = discord.Client(intents=intents)
 
+def makeFilePath(filename):
+    if not '../' in filename:
+        return  "v_list/" + filename
+    else:
+        return "v_list/" + filename.replace("../","")
+
+
 
 @client.event
 async def on_ready():
@@ -30,7 +37,7 @@ async def on_message(message):
     if message.content.lower().startswith("!"): 
         try:
             # Construit le chemin vers le fichier
-            file_path = "v_list/" + link_data[message.content.lower()[1:]]["file"]
+            file_path = makeFilePath(link_data[message.content.lower()[1:]]["file"])
             
             await message.channel.send(link_data[message.content.lower()[1:]]["version"])
             if link_data[message.content.lower()[1:]]["to_big"] == "false":
@@ -43,7 +50,7 @@ async def on_message(message):
         left_side = message.content.lower()[1:].split("@")[0]
         try:
             right_side = message.content.lower()[1:].split("@")[1]
-            file_name = "v_list/" + left_side+".zip"
+            file_name = makeFilePath(left_side+".zip")
             if not os.path.exists(file_name):
                 with open(file_name, 'w') as fichier:
                     if os.path.exists('link.json'):
@@ -78,13 +85,13 @@ async def on_message(message):
                 else:
                     await message.channel.send("vous n'ête pas le créateur de se server")
         except Exception as e:
-            await message.channel.send("ajouter une version avec €name@version")
+            await message.channel.send(f"ajouter une version avec €name@version,{e}")
     elif message.content.lower().startswith("&"):
         left_side = message.content.lower()[1:].split("@")[0]
         try:
             right_side = message.content.lower()[1:].split("@")[1]
             last_side = message.content.lower()[1:].split("@")[2]
-            file_name = "v_list/" + left_side + ".zip"
+            file_name = makeFilePath(left_side + ".zip")
             if not os.path.exists(file_name):
                     if os.path.exists('link.json'):
                         with open('link.json', 'r') as json_file:
@@ -136,7 +143,7 @@ async def on_message(message):
                 with open('link.json', 'w') as json_file:
                     json.dump(link_data, json_file, indent=4)
         if p1 == "makefile":
-            file_name = "v_list/" + p2 +"."+p3
+            file_name = makeFilePath(p2 +"."+p3)
             with open(file_name, 'w') as fichier:
                 for attachment in message.attachments:
                     await attachment.save(file_name)
@@ -151,7 +158,6 @@ async def on_message(message):
                 link_data[p2][p3] = p4
                 with open('link.json', 'w') as json_file:
                     json.dump(link_data, json_file, indent=4)
-
 
 
 client.run("remplace par le token du bot")
