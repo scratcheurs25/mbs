@@ -17,10 +17,10 @@ intents.members = True
 client = discord.Client(intents=intents)
 
 def makeFilePath(filename):
-    if not '../' in filename:
+    if not '..' in filename:
         return  "v_list/" + filename
     else:
-        filename = filename.replace("/", "")
+        filename = filename.replace("..", "")
         return "v_list/" + filename
 
 
