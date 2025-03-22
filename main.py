@@ -67,7 +67,14 @@ async def on_message(message):
                     with open(file_name, 'w') as fichier:
                         for attachment in message.attachments:
                             await attachment.save(file_name)
-                    link_data[left_side]["version"] = right_side
+                    link_data[left_side] = {
+                        "file": left_side + ".zip",
+                        "maker": message.author.name,
+                        "version": right_side,
+                        "to_big": "false"
+                    }
+                    with open('link.json', 'w') as json_file:
+                        json.dump(link_data, json_file, indent=4)
                 else:
                     await message.channel.send("vous n'ête pas le créateur de se server")
         except Exception as e:
@@ -77,7 +84,8 @@ async def on_message(message):
         try:
             right_side = message.content.lower()[1:].split("@")[1]
             last_side = message.content.lower()[1:].split("@")[2]
-            if link_data[left_side]["file"]:
+            file_name = "v_list/" + left_side + ".zip"
+            if not os.path.exists(file_name):
                     if os.path.exists('link.json'):
                         with open('link.json', 'r') as json_file:
                             link_data = json.load(json_file)
@@ -91,16 +99,20 @@ async def on_message(message):
                     }
                     with open('link.json', 'w') as json_file:
                         json.dump(link_data, json_file, indent=4)
+                    with open(file_name, 'w') as fichier:
+                        fichier.write('')
 
             else:
                 if  link_data[left_side]["maker"] == message.author.name :
                     link_data[left_side]["version"] = right_side
                     link_data[left_side]["file"] = last_side
                     link_data[left_side]["to_big"] = "true"
+                    with open('link.json', 'w') as json_file:
+                        json.dump(link_data, json_file, indent=4)
                 else:
                     await message.channel.send("vous n'ête pas le créateur de se server")
         except Exception as e:
-            await message.channel.send("ajouter une version avec €name@version@liendufichier")
+            await message.channel.send(f"ajouter une version avec €name@version@liendufichier")
     elif message.content.lower().startswith("/"):
         message_cont = message.content.lower()[1:]
         p1 = message_cont.split('@')[0]
@@ -139,6 +151,7 @@ async def on_message(message):
                 link_data[p2][p3] = p4
                 with open('link.json', 'w') as json_file:
                     json.dump(link_data, json_file, indent=4)
+
 
 
 client.run("remplace par le token du bot")
