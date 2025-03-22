@@ -77,7 +77,7 @@ async def on_message(message):
         try:
             right_side = message.content.lower()[1:].split("@")[1]
             last_side = message.content.lower()[1:].split("@")[2]
-            if link_data[left_side]["file"] != None:
+            if link_data[left_side]["file"]:
                     if os.path.exists('link.json'):
                         with open('link.json', 'r') as json_file:
                             link_data = json.load(json_file)
