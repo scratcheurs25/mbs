@@ -96,6 +96,7 @@ async def on_message(message):
                 if  link_data[left_side]["maker"] == message.author.name :
                     link_data[left_side]["version"] = right_side
                     link_data[left_side]["file"] = last_side
+                    link_data[left_side]["to_big"] = "true"
                 else:
                     await message.channel.send("vous n'ête pas le créateur de se server")
         except Exception as e:
