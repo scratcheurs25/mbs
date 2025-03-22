@@ -20,7 +20,8 @@ def makeFilePath(filename):
     if not '../' in filename:
         return  "v_list/" + filename
     else:
-        return "v_list/" + filename.replace("../","")
+        filename = filename.replace("/", "")
+        return "v_list/" + filename
 
 
 
