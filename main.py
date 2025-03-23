@@ -2,7 +2,6 @@ import os
 import discord
 import json
 
-
 # Lire le fichier JSON
 with open('link.json', 'r') as json_file:
     link_data = json.load(json_file)
@@ -17,13 +16,22 @@ intents.members = True
 client = discord.Client(intents=intents)
 
 def makeFilePath(filename):
-    if not '..' in filename:
-        return  "v_list/" + filename
-    else:
-        filename = filename.replace("..", "")
-        return "v_list/" + filename
+    filename = os.path.basename(filename)
+    filename = os.path.join("v_list", filename)
+    return filename
 
-
+def ds(script):
+    if script.startswith("says "):
+        script = script[5:]
+        return script
+    if script.startswith("ip "):
+        script = " l'ip du server est " + script[3:]
+        return script
+    if script.startswith("open"):
+        with open(makeFilePath(script[5:]),'r') as file:
+            script = file.read()
+        return script
+    return ""
 
 @client.event
 async def on_ready():
@@ -35,11 +43,17 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.lower().startswith("!"): 
+    if message.content.lower().startswith("!"):
         try:
             # Construit le chemin vers le fichier
             file_path = makeFilePath(link_data[message.content.lower()[1:]]["file"])
-            
+
+            try:
+                if link_data[message.content.lower()[1:]]["cs"] == "true":
+                    script = link_data[message.content.lower()[1:]]["cc"]
+                    await message.channel.send(ds(script))
+            except Exception as r:
+                print(r)
             await message.channel.send(link_data[message.content.lower()[1:]]["version"])
             if link_data[message.content.lower()[1:]]["to_big"] == "false":
                 await message.channel.send(file=discord.File(file_path))
@@ -159,6 +173,5 @@ async def on_message(message):
                 link_data[p2][p3] = p4
                 with open('link.json', 'w') as json_file:
                     json.dump(link_data, json_file, indent=4)
-
 
 client.run("remplace par le token du bot")
