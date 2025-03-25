@@ -1,0 +1,370 @@
+2025-03-24 20:52:28,401 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 20:52:28,404 - INFO - logging in using static token
+2025-03-24 20:52:29,371 - INFO - Shard ID None has connected to Gateway (Session ID: 4f068df428d7dc5eefc94f7a5550a9f8).
+2025-03-24 20:53:11,452 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 20:53:11,452 - DEBUG - on_ready has successfully been registered as an event
+2025-03-24 20:53:11,452 - DEBUG - on_message has successfully been registered as an event
+2025-03-24 20:53:11,452 - DEBUG - Using proactor: IocpProactor
+2025-03-24 20:53:11,454 - INFO - logging in using static token
+2025-03-24 20:53:12,687 - INFO - Shard ID None has connected to Gateway (Session ID: c25c454365cec2bbf87d6be4f0fbb794).
+2025-03-24 20:56:37,926 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 20:56:37,928 - INFO - logging in using static token
+2025-03-24 20:56:38,883 - INFO - Shard ID None has connected to Gateway (Session ID: 1da1b8496364063be61dc00762b4fdc0).
+2025-03-24 20:56:49,148 - INFO - hello evoyer dans discord
+2025-03-24 20:57:19,590 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 20:57:19,592 - INFO - logging in using static token
+2025-03-24 20:57:20,591 - INFO - Shard ID None has connected to Gateway (Session ID: 4b8488955be0e312af1a475cf0c2558f).
+2025-03-24 20:57:26,072 - INFO - hello world evoyer dans discord par lescratcheur
+2025-03-24 20:59:40,010 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 20:59:40,012 - INFO - logging in using static token
+2025-03-24 20:59:40,949 - INFO - Shard ID None has connected to Gateway (Session ID: 4d0ec181843bba561dbe3b4ccf60dd0f).
+2025-03-24 20:59:44,553 - INFO - hello evoyer dans discord par lescratcheur
+2025-03-24 20:59:54,057 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-24 20:59:54,059 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-24 20:59:54,059 - INFO - py test executer dans ds
+2025-03-24 20:59:54,204 - INFO - code executer import py_mmb_libs
+
+print(f"Bonjour {py_mmb_libs.get_last_user_name()}, l'ip du server est {py_mmb_libs.get_config()}")
+print("ce code est du code python executer avec cc = py test")
+print("voici les commande pour generer un code")
+print("&name@version@lien")
+print("/makefile@name@extantion   attach = code")
+print("/makescript@name@py script name")
+print("!name")
+
+
+, donne,Bonjour lescratcheur, l'ip du server est 1.123.546
+ce code est du code python executer avec cc = py test
+voici les commande pour generer un code
+&name@version@lien
+/makefile@name@extantion   attach = code
+/makescript@name@py script name
+!name
+
+2025-03-24 20:59:54,381 - INFO - Bonjour lescratcheur, l'ip du server est 1.123.546
+ce code est du code python executer avec cc = py test
+voici les commande pour generer un code
+&name@version@lien
+/makefile@name@extantion   attach = code
+/makescript@name@py script name
+!name evoyer dans discord par tesy
+2025-03-24 20:59:54,683 - INFO - test evoyer dans discord par tesy
+2025-03-24 20:59:55,061 - INFO -  evoyer dans discord par tesy
+2025-03-24 21:01:29,504 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-24 21:01:29,505 - INFO - logging in using static token
+2025-03-24 21:01:30,537 - INFO - Shard ID None has connected to Gateway (Session ID: 4d42926d13d12f090e29148857d91d6b).
+2025-03-24 21:01:39,287 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-24 21:01:39,288 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-24 21:01:39,289 - INFO - py test executer dans ds
+2025-03-24 21:01:39,438 - INFO - code executer import py_mmb_libs
+
+print(f"Bonjour {py_mmb_libs.get_last_user_name()}, l'ip du server est {py_mmb_libs.get_config()}")
+print("ce code est du code python executer avec cc = py test")
+print("voici les commande pour generer un code")
+print("&name@version@lien")
+print("/makefile@name@extantion   attach = code")
+print("/makescript@name@py script name")
+print("!name")
+
+
+, donne,Bonjour lescratcheur, l'ip du server est 1.123.546
+ce code est du code python executer avec cc = py test
+voici les commande pour generer un code
+&name@version@lien
+/makefile@name@extantion   attach = code
+/makescript@name@py script name
+!name
+
+2025-03-24 21:01:53,340 - INFO - !tt evoyer dans discord par lescratcheur
+2025-03-24 21:01:53,341 - INFO - lescratcheur a accerder au mod-pack tt
+2025-03-24 21:01:53,537 - INFO - lescratcheur a assayer d'acceder au mod-pack tt mais il existe pas ou le fichier est introuvable,'tt' 
+2025-03-25 18:38:38,306 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 18:38:38,322 - INFO - logging in using static token
+2025-03-25 18:38:39,615 - INFO - Shard ID None has connected to Gateway (Session ID: 201fd9cd104c6733bb08f44f09dbbe2e).
+2025-03-25 18:38:45,392 - INFO - €test2@ evoyer dans discord par lescratcheur
+2025-03-25 18:38:45,394 - INFO - lescratcheur a créer ou modifier le mod-pack test2@
+2025-03-25 18:38:45,394 - INFO - le nom du mod pack est test2
+2025-03-25 18:38:45,406 - INFO - lescratcheur a créer le mod-pack test2@
+2025-03-25 18:38:45,407 - INFO - link.json ouvert
+2025-03-25 18:38:45,407 - INFO - link.json modifier
+2025-03-25 18:38:45,409 - INFO - link.json sauvegarder
+2025-03-25 18:54:30,298 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 18:54:30,300 - INFO - logging in using static token
+2025-03-25 18:54:31,380 - INFO - Shard ID None has connected to Gateway (Session ID: 768ef827458b7ec32f39ba9e185e95cc).
+2025-03-25 18:54:38,105 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 18:54:38,106 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 18:54:38,106 - INFO - py test executer dans ds
+2025-03-25 18:54:59,300 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 18:54:59,301 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 18:54:59,388 - INFO - py test executer dans ds
+2025-03-25 18:54:59,951 - INFO - lescratcheur a assayer d'acceder au mod-pack test mais il existe pas ou le fichier est introuvable,[Errno 2] No such file or directory: 'v_list\\test.zip' 
+2025-03-25 18:55:08,651 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 18:55:08,653 - INFO - logging in using static token
+2025-03-25 18:55:09,698 - INFO - Shard ID None has connected to Gateway (Session ID: 05b5123a4b30c7432526dc8670100889).
+2025-03-25 18:55:17,276 - INFO - €test@version evoyer dans discord par lescratcheur
+2025-03-25 18:55:17,279 - INFO - lescratcheur a créer ou modifier le mod-pack test@version
+2025-03-25 18:55:17,279 - INFO - le nom du mod pack est test
+2025-03-25 18:55:17,279 - INFO - lescratcheur a créer le mod-pack test@version
+2025-03-25 18:55:17,280 - INFO - link.json ouvert
+2025-03-25 18:55:17,280 - INFO - link.json modifier
+2025-03-25 18:55:17,280 - INFO - link.json sauvegarder
+2025-03-25 18:55:50,832 - INFO - /is_command@test@true evoyer dans discord par lescratcheur
+2025-03-25 18:56:31,544 - INFO - /is_command@test@true evoyer dans discord par lescratcheur
+2025-03-25 18:57:13,459 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 18:57:13,460 - INFO - logging in using static token
+2025-03-25 18:57:14,793 - INFO - Shard ID None has connected to Gateway (Session ID: 296126b7919fc1042420a65a9e3f5710).
+2025-03-25 18:57:22,297 - INFO - /is_command@test@true evoyer dans discord par lescratcheur
+2025-03-25 18:57:30,811 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 18:57:30,812 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:00:35,177 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:00:35,180 - INFO - logging in using static token
+2025-03-25 19:00:36,214 - INFO - Shard ID None has connected to Gateway (Session ID: 34a986f980068d7bf622a74980b85023).
+2025-03-25 19:00:39,589 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 19:00:39,590 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:00:39,833 - INFO - lescratcheur a assayer d'acceder au mod-pack test mais il existe pas ou le fichier est introuvable,'builtin_function_or_method' object is not subscriptable 
+2025-03-25 19:01:25,956 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:01:25,959 - INFO - logging in using static token
+2025-03-25 19:01:28,298 - INFO - Shard ID None has connected to Gateway (Session ID: 07cfdc767f47dec4ab7f504be9a38d8d).
+2025-03-25 19:01:31,403 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 19:01:31,404 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:01:31,707 - INFO - lescratcheur a assayer d'acceder au mod-pack test mais il existe pas ou le fichier est introuvable,'builtin_function_or_method' object is not subscriptable 
+2025-03-25 19:01:49,997 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:01:49,999 - INFO - logging in using static token
+2025-03-25 19:01:51,025 - INFO - Shard ID None has connected to Gateway (Session ID: e5c8686525e98e9d3f5c44ea02a12776).
+2025-03-25 19:01:54,577 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 19:01:54,578 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:04:37,570 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:04:37,585 - INFO - logging in using static token
+2025-03-25 19:04:39,039 - INFO - Shard ID None has connected to Gateway (Session ID: 809b7bff82b6d1ba3588ea87f414e33c).
+2025-03-25 19:04:59,625 - INFO - /makescript@test@py test_custom_command evoyer dans discord par lescratcheur
+2025-03-25 19:06:43,374 - INFO - !test@25@10 evoyer dans discord par lescratcheur
+2025-03-25 19:06:43,376 - INFO - lescratcheur a accerder au mod-pack test@25@10
+2025-03-25 19:06:43,376 - INFO - py test_custom_command executer dans ds
+2025-03-25 19:06:43,376 - INFO - Exécution du script: import py_mmb_libs
+
+def get_args(num):
+    return py_mmb_libs.get_args(num,py_mmb_libs.get_last_message())
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}")
+2025-03-25 19:06:43,627 - INFO - code executer import py_mmb_libs
+
+def get_args(num):
+    return py_mmb_libs.get_args(num,py_mmb_libs.get_last_message())
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}"), donne,Add fonction
+!test + 25 = !test25
+
+2025-03-25 19:07:08,146 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:07:08,149 - INFO - logging in using static token
+2025-03-25 19:07:09,143 - INFO - Shard ID None has connected to Gateway (Session ID: 3e4d97a8f51a0eb8de7bb335072302c7).
+2025-03-25 19:07:17,205 - INFO - !test@25@10 evoyer dans discord par lescratcheur
+2025-03-25 19:07:17,206 - INFO - lescratcheur a accerder au mod-pack test@25@10
+2025-03-25 19:07:17,206 - INFO - py test_custom_command executer dans ds
+2025-03-25 19:07:17,206 - INFO - Exécution du script: import py_mmb_libs
+
+def get_args(num):
+    return py_mmb_libs.get_args(num,py_mmb_libs.get_last_message())
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}")
+2025-03-25 19:07:17,360 - INFO - code executer import py_mmb_libs
+
+def get_args(num):
+    return py_mmb_libs.get_args(num,py_mmb_libs.get_last_message())
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}"), donne,Add fonction
+25 + 10 = 2510
+
+2025-03-25 19:07:48,920 - INFO - !test@25@10 evoyer dans discord par lescratcheur
+2025-03-25 19:07:48,922 - INFO - lescratcheur a accerder au mod-pack test@25@10
+2025-03-25 19:07:48,922 - INFO - py test_custom_command executer dans ds
+2025-03-25 19:07:48,922 - INFO - Exécution du script: import py_mmb_libs
+
+def get_args(num):
+    return int(py_mmb_libs.get_args(num,py_mmb_libs.get_last_message()))
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}")
+2025-03-25 19:07:49,043 - INFO - code executer import py_mmb_libs
+
+def get_args(num):
+    return int(py_mmb_libs.get_args(num,py_mmb_libs.get_last_message()))
+
+print("Add fonction")
+print(f"{get_args(1)} + {get_args(2)} = {get_args(1) + get_args(2)}"), donne,Add fonction
+25 + 10 = 35
+
+2025-03-25 19:17:04,744 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:17:04,746 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:17:05,140 - INFO - lescratcheur a assayer d'acceder au mod-pack help mais il existe pas ou le fichier est introuvable,'help' 
+2025-03-25 19:17:10,306 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:17:10,307 - INFO - logging in using static token
+2025-03-25 19:17:11,355 - INFO - Shard ID None has connected to Gateway (Session ID: 288a8a0cadde4d97a488b5cb49ddba0e).
+2025-03-25 19:17:15,258 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:17:15,259 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:17:15,259 - INFO - py help executer dans ds
+2025-03-25 19:17:15,260 - INFO - Exécution du script: import py_mmb_libs
+
+print("help")
+print(" â‚¬name@version:make or modify the server {name} with the version {version}")
+print(" &name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+
+2025-03-25 19:17:15,403 - INFO - code executer import py_mmb_libs
+
+print("help")
+print(" â‚¬name@version:make or modify the server {name} with the version {version}")
+print(" &name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+, donne,help
+ Ã¢â€šÂ¬name@version:make or modify the server {name} with the version {version}
+ &name@version@link:make or modify the server {name} with the version {version} with the link {link}
+ /makefile@file@ext:make the file {file}.{ext}
+ /makescript@name@script:link a script {script} like says hello world to {name}
+ /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version
+
+2025-03-25 19:19:03,934 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:19:03,936 - INFO - logging in using static token
+2025-03-25 19:19:04,994 - INFO - Shard ID None has connected to Gateway (Session ID: ddabe397bca9f19713c57cd21d17a468).
+2025-03-25 19:19:10,357 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:19:10,359 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:19:10,359 - INFO - py help executer dans ds
+2025-03-25 19:19:10,359 - INFO - Exécution du script: import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+
+2025-03-25 19:19:10,480 - INFO - code executer import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+, donne,help
+ -name@version:make or modify the server {name} with the version {version}
+ *name@version@link:make or modify the server {name} with the version {version} with the link {link}
+ /makefile@file@ext:make the file {file}.{ext}
+ /makescript@name@script:link a script {script} like says hello world to {name}
+ /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version
+
+2025-03-25 19:19:23,032 - INFO - -test2@ver evoyer dans discord par lescratcheur
+2025-03-25 19:19:23,033 - INFO - lescratcheur a créer ou modifier le mod-pack test2@ver
+2025-03-25 19:19:23,033 - INFO - le nom du mod pack est test2
+2025-03-25 19:19:23,033 - INFO - lescratcheur a créer le mod-pack test2@ver
+2025-03-25 19:19:23,034 - INFO - link.json ouvert
+2025-03-25 19:19:23,034 - INFO - link.json modifier
+2025-03-25 19:19:23,035 - INFO - link.json sauvegarder
+2025-03-25 19:22:14,211 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:22:14,213 - INFO - logging in using static token
+2025-03-25 19:22:15,204 - INFO - Shard ID None has connected to Gateway (Session ID: 167c9216bd0da928295fc5b2751296e9).
+2025-03-25 19:22:19,535 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 19:22:19,536 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:22:19,770 - INFO - lescratcheur a assayer d'acceder au mod-pack test mais il existe pas ou le fichier est introuvable,'test' 
+2025-03-25 19:22:22,514 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:22:22,515 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:22:22,515 - INFO - py help executer dans ds
+2025-03-25 19:22:22,516 - INFO - Exécution du script: import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+
+2025-03-25 19:22:22,643 - INFO - code executer import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+, donne,help
+ -name@version:make or modify the server {name} with the version {version}
+ *name@version@link:make or modify the server {name} with the version {version} with the link {link}
+ /makefile@file@ext:make the file {file}.{ext}
+ /makescript@name@script:link a script {script} like says hello world to {name}
+ /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version
+
+2025-03-25 19:35:06,384 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:35:06,387 - INFO - logging in using static token
+2025-03-25 19:35:07,297 - INFO - Shard ID None has connected to Gateway (Session ID: 1e905b660c6f7efff375c994306e852c).
+2025-03-25 19:35:10,893 - INFO - !test evoyer dans discord par lescratcheur
+2025-03-25 19:35:10,894 - INFO - lescratcheur a accerder au mod-pack test
+2025-03-25 19:35:11,134 - INFO - lescratcheur a assayer d'acceder au mod-pack test mais il existe pas ou le fichier est introuvable,'test' 
+2025-03-25 19:35:13,848 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:35:13,849 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:35:13,849 - INFO - py help executer dans ds
+2025-03-25 19:35:13,850 - INFO - Exécution du script: import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+
+2025-03-25 19:35:13,977 - INFO - code executer import py_mmb_libs
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+, donne,help
+ -name@version:make or modify the server {name} with the version {version}
+ *name@version@link:make or modify the server {name} with the version {version} with the link {link}
+ /makefile@file@ext:make the file {file}.{ext}
+ /makescript@name@script:link a script {script} like says hello world to {name}
+ /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version
+
+2025-03-25 19:35:30,485 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:35:30,486 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:35:30,486 - INFO - py help executer dans ds
+2025-03-25 19:36:48,361 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:36:48,362 - INFO - logging in using static token
+2025-03-25 19:36:49,458 - INFO - Shard ID None has connected to Gateway (Session ID: f0a4f3041b6c7a22c5f12d739b0b06a2).
+2025-03-25 19:36:55,708 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:36:55,710 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:36:55,710 - INFO - py help executer dans ds
+2025-03-25 19:37:18,532 - INFO - logging in using static token
+2025-03-25 19:37:19,493 - INFO - Shard ID None has connected to Gateway (Session ID: 33e71d5cc2daa1ae5f31d2f9c1c7e866).
+2025-03-25 19:39:10,271 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:39:10,273 - INFO - logging in using static token
+2025-03-25 19:39:28,847 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:39:28,850 - INFO - logging in using static token
+2025-03-25 19:39:40,895 - INFO - Shard ID None has connected to Gateway (Session ID: ed8e6fa6792e8bc4c73ab2ca9c24b48f).
+2025-03-25 19:39:46,553 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:39:46,554 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:39:46,554 - INFO - py help executer dans ds
+2025-03-25 19:41:13,668 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-03-25 19:41:13,672 - INFO - logging in using static token
+2025-03-25 19:41:14,735 - INFO - Shard ID None has connected to Gateway (Session ID: 0c09c1749d257eaf9fb28073ba9095e8).
+2025-03-25 19:41:18,018 - INFO - !help evoyer dans discord par lescratcheur
+2025-03-25 19:41:18,019 - INFO - lescratcheur a accerder au mod-pack help
+2025-03-25 19:41:18,019 - INFO - py help executer dans ds
+2025-03-25 19:41:18,020 - INFO - import blocker dans import py_mmb_libs
+import os
+
+print("help")
+print(" -name@version:make or modify the server {name} with the version {version}")
+print(" *name@version@link:make or modify the server {name} with the version {version} with the link {link}")
+print(" /makefile@file@ext:make the file {file}.{ext}")
+print(" /makescript@name@script:link a script {script} like says hello world to {name}")
+print(" /is_command@name@value:if is_command is true then your mod-pack dosent give a file and a version")
+

@@ -1,14 +1,11 @@
 {
-    "expocalipse": {
-        "file": "expocalipse.zip",
-        "maker": "lescratcheur",
-        "version": "neoforge 1.20.6",
-        "to_big": "false"
-    },
-    "test": {
-        "file": "test.zip",
-        "maker": "lescratcheur",
-        "version": "aaaa",
-        "to_big": "false"
+    "help": {
+        "file": "None",
+        "version": "None",
+        "maker": "None",
+        "to_big": "None",
+        "cs": "true",
+        "cc": "py help",
+        "is_command": "true"
     }
 }
